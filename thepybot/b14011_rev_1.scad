@@ -30,19 +30,16 @@ module b14011_rev_1(color="Blue")
 
 		translate([40.75,2.1-1,0]) cylinder (h=10, r=1, center=true, $fn=100);
 		translate([40.75-1,-1,-1]) cube ([2,2,4]);
-		translate([40.75,0,-1]) rotate([0,0,90]) Rounder(1);
+		translate([40.75-1,0,-1]) rotate([0,0,90]) Rounder(1);
 
 		translate([40.75,41+1+.9,0]) cylinder (h=10, r=1, center=true, $fn=100);
 		translate([40.75-1,44-1,-1]) cube ([2,2,4]);
 		translate([40.75-1,44+0,-1]) rotate([0,0,180]) Rounder(1);
 
+		translate([62.75,2.1,-1]) rotate([0,0,90]) Rounder(5);
+		translate([62.75,41.9,-1]) rotate([0,0,180]) Rounder(5);
+
 	}	
-
-
-
-
-translate([62.75,2.1,-1]) rotate([0,0,90]) Rounder(5);
-translate([62.75,41.9,-1]) rotate([0,0,180]) Rounder(5);
 
 //translate([62.75,22-5,0]) rotate([0,0,180]) Rounder(5);
 
