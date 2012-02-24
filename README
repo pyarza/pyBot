@@ -1,1 +1,6 @@
 Files related to the building of pyarza ordbot (AKA pyBot)
+
+The "thepybot" folder contains:
+
+ - The pdf files with the parts of the bot (made by bdring. see http://www.buildlog.net/)
+ - My versions of those PDF files written with openScad to make the 3D model of the pyBot (that is my ordBot)
